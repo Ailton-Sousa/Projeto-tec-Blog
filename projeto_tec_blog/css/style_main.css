@@ -28,10 +28,7 @@ body{
   padding:15px;
 }
 
-#area-de-postagens,#area-lateral{
 
-	background: orange;
-}
 
 #area-de-postagens{
  width: 660px;
@@ -69,6 +66,7 @@ h2{
 	color: #f7b600;
 }
 
+
 .data-postagem{
    font-size: 0.8em;
    border-bottom: 3px solid #f4f4f4;
@@ -78,6 +76,33 @@ h2{
    display: block;
 }
 
+/*--------------> Estilização lateral <-----------------------*/
+
+.postagem-lateral{
+
+	font-size: 0.8em;
+	padding: 5px;
+	border-bottom: 1px dotted #CCC;
+
+
+
+}
+
+.conteudo-lateral{
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+
+}
+
+h3{
+	color: #565656;
+	background: #CCC;
+	padding: 5px;
+}
+
+/*--------------< Estilização lateral> -----------------------*/
+
 
 .branco{
 	color: white;
@@ -85,15 +110,26 @@ h2{
 
 a{
 	text-decoration: none;
-
 }
 
-a:link, a:visited{
+ a:link,   a:visited{
+	color: #f7b600;
+}
+
+a:hover{
+	
+	text-decoration: underline;
+}
+
+
+
+#area-cabecalho a:link, #area-cabecalho a:visited{
 	color: #FFF;
 	padding: 8px 12px;
-	border-radius: 3px;
+	
 }
-a:hover{
+#area-cabecalho a:hover{
 	background:#FFF;
 	color:#f7b600;
+	text-decoration:none;
 }
